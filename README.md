@@ -1,5 +1,5 @@
 # otlarinugultusualtinda.com
-Pandemi döneminde yapılan online bir sergi web sitesidir
+Pandemi döneminde yapılan online bir sergi web sitesidir<br/>
 1.Kullanım <br/>
 connect.php dosyası oluşturup veri tabanını siz kendiniz oluşturmak zorundasınız.<br/>
 problem yaşarsanız issue açabilirsiniz<br/>
