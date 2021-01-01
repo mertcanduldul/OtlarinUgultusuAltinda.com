@@ -1,0 +1,19 @@
+.btn-xl{
+    padding:1.25rem 2.25rem !important;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    border:none !important;
+    border-radius: 10rem !important;
+    
+}
+.btn-first{
+    color:#fff !important;
+    background-color: #86140c !important;
+    border-color: #420905 !important;
+    transition: 0.2s !important;
+}
+.btn-first:hover{
+    background-color: #550a05 !important;
+    border-color: #550a05 !important;
+}

@@ -1,0 +1,276 @@
+html,div,section {
+    overflow-x: hidden !important;
+}
+p{
+    overflow: hidden;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.masthead {
+    height: 100vh;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.81) 0%, rgba(92, 77, 66, 0.81) 100%), url(../img/bg-masthead.jpg);
+    background-image: linear-gradient(to bottom, rgba(116, 107, 107, 0.781) 0%, rgba(64, 64, 65, 0.801) 100%), url(../img/bg-masthead.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.masthead-item {
+    font-size: 3.5rem;
+    letter-spacing: 5px;
+}
+
+hr.divider {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #420905;
+}
+
+hr.divider-light {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #fff;
+}
+
+nav {
+    font-family: 'Dosis', sans-serif !important;
+    text-transform: uppercase;
+}
+
+#brandx {
+    color: #fff !important;
+}
+
+.nav-item>.nav-link {
+    color: rgba(255, 255, 255, 0) !important;
+    padding: 0rem 1rem !important;
+    font-weight: 700 !important;
+}
+
+.nav-item>.nav-link:hover {
+    color: rgba(255, 255, 255, 1) !important;
+
+}
+
+.navbar-scrolled {
+    background-color: #fff !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    transition: 0.4s ease !important;
+}
+
+#mainNav.navbar-scrolled a {
+    color: #212529 !important;
+}
+#mainNav.navbar-scrolled a:hover {
+    color: #86130b !important;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #86130b !important;
+}
+
+#onsozId,
+#eseryazisiId,
+#sergiId,
+#bizkimizId,
+#brandx {
+    color: #fff !important;
+}
+
+#onsozId:hover,
+#eseryazisiId:hover,
+#sergiId:hover,
+#bizkimizId:hover,
+#brandx:hover,
+a.nav-link:hover {
+    color: #86130b !important;
+}
+
+
+
+.bg-first {
+    background: rgb(66, 9, 5);
+    background: radial-gradient(circle, rgba(66, 9, 5, 1) 0%, rgba(98, 18, 19, 1) 80%);
+}
+
+.bg-ot {
+    background-color: #5E0E0F !important;
+    padding: 9rem 0rem;
+}
+.bg-second{
+    background-color: #5E0E0F !important;
+}
+
+.page-section {
+    padding: 9rem 0rem;
+}
+
+.exhibition-text {
+    font-size: 20px !important;
+    line-height: 2.5rem;
+}
+
+section.portfolio {
+    background-color: #ededed;
+}
+
+.portfolio-box {
+    position: relative;
+    display: block;
+}
+
+.portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: #550a05;
+    transition: opacity 0.25s ease;
+    text-align: center;
+
+}
+
+.portfolio-box-caption:hover {
+    opacity: 0.75;
+}
+
+.author-ico {
+    font-size: 3rem;
+    color: #6b130d;
+}
+
+.author-ico-big {
+    font-size: 2.5rem !important;
+    color: #6b130d;
+}
+
+.bg-darkv2 {
+    background-color: #2A2A2A !important;
+}
+
+.project-name {
+    font-size: 160px !important;
+}
+
+.img-fix {
+    width: 40% !important;
+}
+
+.cursor-point {
+    cursor: pointer;
+}
+
+.header-ot {
+    padding-top: 18%;
+}
+
+.share-ul {
+    list-style: none;
+    text-align: center;
+}
+
+.share-li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px !important;
+}
+
+.share-li>.share-button {
+
+    width: 35px;
+    height: 35px;
+    position: relative;
+    border-radius: 35px;
+    background-color: #6b130d;
+    color: #fff;
+    padding: 0.75rem;
+    font-size: 22px;
+}
+
+a.share-button:hover {
+    background-color: #fff !important;
+    transition-duration: 0.8s;
+}
+
+.headerPic {
+    width: 45% !important;
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 0px;
+
+}
+
+.aboutme-p {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+.paylas {
+    text-decoration: underline;
+}
+
+.paylas:hover {
+    font-size: 24px;
+    transition-duration: 0.5s;
+}
+
+.xxaa {
+    width: 65%;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+.xa {
+    margin-right: 0px;
+    margin-top: 107px;
+}
+
+.other-user {
+    font-family: 'Dosis';
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media only screen and (max-width: 750px) {
+    .xxaa {
+        width: 100% !important;
+    }
+
+    #mainNav {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        background-color: #e1e1e1;
+        transition: background-color 0.2s ease;
+    }
+
+    #onsozId,
+    #eseryazisiId,
+    #sergiId,
+    #bizkimizId,
+    #brandx {
+        color: #420905 !important;
+    }
+}
+.margin-polen{
+    margin-top: 10px;
+}

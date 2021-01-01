@@ -1,0 +1,48 @@
+@font-face{
+    font-family: Consolas;
+    src:url(../font/Consolas.ttf);
+}
+@font-face{
+    font-family: Futura;
+    src:url(../font/Futura.ttf);
+}
+@font-face{
+    font-family: Bahns;
+    src:url(../font/Bahns.TTF);
+}
+.font-courier-prime{
+    font-family: 'Courier Prime', monospace !important;
+}
+.font-consolas{
+    font-family: Consolas !important;
+}
+.font-futura{
+    font-family: Futura !important;
+}
+
+.font-dosis{
+    font-family: 'Dosis', sans-serif;
+}
+.font-dosis-bold{
+    font-family: 'Dosis', sans-serif !important; 
+    font-weight: 500 !important;
+
+}
+.font-48-px{
+    font-size: 48px!important;
+}
+.font-52-px{
+    font-size: 52px!important;
+}
+.font-24-px{
+    font-size: 24px!important;
+}
+.font-18-px{
+    font-size: 18px!important;
+}
+.font-22-px{
+    font-size: 22px!important;
+}
+.font-timesNewRoman{
+    font-family: 'Times New Roman', Times, serif;
+}
