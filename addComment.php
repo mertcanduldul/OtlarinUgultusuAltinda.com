@@ -66,7 +66,7 @@
 if (isset($_POST["submit"])) {
 
     $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-    $recaptcha_secret = '6Ld_GAoaAAAAAKgyrWdiImIMfw2MwCVUpxyoYtvA';
+    $recaptcha_secret = '';
     $recaptcha_response = $_POST['recaptchaCevabi'];
 
     $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
